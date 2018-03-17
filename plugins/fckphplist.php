@@ -52,8 +52,8 @@ class fckphplist extends phplistPlugin {
     ),
   );
 
-  function fckphplist() {
-    parent::phplistplugin();
+  function __construct() {
+    parent::__construct();
     $this->coderoot = dirname(__FILE__).'/fckphplist/';
   }
 
